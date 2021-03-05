@@ -6,5 +6,8 @@ Particularly where technologies are shared within the household or affect other 
 
 This leaflet provides guidance for those looking after technology in the home.
 
+# Demo
+https://markraemer.github.io/responsible-digital-housekeeping/
+
 # Author
 Martin J. Kraemer
