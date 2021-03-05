@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PDF Viewer PDF.js</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div role="toolbar" id="toolbar">
+        <div id="pager" style="  display: flex;  justify-content: center; position: relative;">
+          <button data-pager="prev">prev</button>
+          <button data-pager="next">next</button>
+        </div>
+        <div id="page-mode" style="display:none;">
+          <label>Page Mode <input type="number" value="2" min="1"/></label>
+        </div>
+      </div>
+<br>
+      <div id="viewport-container" style="  display: flex;  justify-content: center; position: relative;"><div role="main" id="viewport" style="width:1024px; position: absolute;
+  top: 50%;"></div></div>
+    </div>
+    <script src="https://unpkg.com/pdfjs-dist@2.0.489/build/pdf.min.js"></script>
+    <script src="js/index.js"></script>
+    <script>
+      initPDFViewer("ch6-leaflet.pdf");
+    </script>
+  </body>
+</html>
